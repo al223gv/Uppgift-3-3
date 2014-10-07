@@ -1,1 +1,170 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:602px;
+    margin:auto;
+    margin-top:10px;
+}
+.container{
+    width:6000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#topbar{
+    width:100%;
+    height:15px;
+    padding:3px 0;
+    font-family:"Verdana";
+    font-size:10px;
+    font-style:italic;
+    text-align:right;
+    background-color:#51473D;
+    color:#EAE7D2;
+}
+#menu #maincontent a{
+    padding:500px;
+}
+#menu{
+    position:relative;
+    height:236px;
+    background-repeat:no-repeat;
+    background-color:#51473D;
+    background-image:url('pics/coffey.jpg');
+    border-left:1px solid #D3D3D3;
+    border-right:1px solid #D3D3D3;
+}
+#menu li{
+    display:inline-block;
+    font-weight:normal;
+    padding:8px 7px;
+    background-color:#797066;
+    text-decoration:none;
+    font-family:Verdana;
+    font-weight:normal;
+    font-size:12px;
+    border-right:1px solid #51473D;
+}
+#menu li:hover{
+    background-color:#9C9084;
+}
+#menu > a{
+    visibility:hidden;
+    display:none;
+}
+#menu ul{
+    font-size:0px;
+    text-transform:capitalize;
+    position: absolute; 
+    bottom: 0px;
+    margin-bottom:0px;
+    padding-left:10px;
+}
+#menu a{
+    font-weight:normal;
+    text-decoration:none;
+    color:#e5e7ce;
+    padding:5px 15px;
+}
+#menu .active{
+    background-color:#EAE7D2;
+}
+#menu .active a{
+    color:#797066;
+}
+
+
+
+/*---------------------------------*/
+#maincontent{
+    float:left;
+    display:block;
+    width:58%;
+    padding-left:10px;
+    padding-right:5px;
+}
+#maincontent h1{
+    margin-bottom:10px;
+    color:#797066;
+    font-weight:normal;
+    font-size:30px;
+    font-family:"Times new Roman";
+}
+#maincontent p{
+    font-weight:normal;
+    font-family:Verdana;
+    font-size:13px;
+    line-height:20px;
+    color:#797066;
+}
+img{
+    display:block;
+    float:left;
+    padding-right:5px
+}
+#content{
+    padding-top:20px;
+    background-color:#EAE7D2;
+    padding-bottom:13px;
+    border-left:1px solid #D3D3D3;
+    border-right:1px solid #D3D3D3;
+    border-bottom:1px solid #D3D3D3;
+}
+#subcontent{
+    float:left;
+    width:35%;
+    padding-bottom:14px;
+    display:block;
+    border-left:1px dashed #C0C0C0;
+    color:#8D7C66;
+    padding:0px 10px;
+}
+#subcontent p{
+    font-weight:normal;
+    font-family:Verdana;
+    font-size:9.7px;
+    padding-top:15px;
+    line-height:20px;
+    margin-right:0px;
+}
+#subcontent h1{
+    margin-top:10px;
+    font-family:"Times New Roman";
+    font-weight:normal;
+    font-size:17px;
+    color:#52483D;
+}
+#subcontent h2{
+    font-family:"Times New Roman";
+    color:#625C4F;
+    font-size:14px;
+    margin-top:26px;
+    margin-bottom:3px;
+    font-weight:normal;
+}
+#subcontent ul{
+    display:block;
+    font-size:13px;
+    list-style-type:none;
+    margin:0px;
+    padding-bottom:17px
+}
+#subcontent li{
+    font-family:Verdana;
+    padding-bottom:5px;
+}
+#subcontent ul li a{
+    color:#625C4F;
+}
+#bottomcontent{
+    clear:both;
+    color:#797066;
+    font-family:verdana;
+    font-size:10px;
+    font-weight:normal;
+    font-style:italic;
+    padding-top:10px;
+    padding-left:10px;
+}
